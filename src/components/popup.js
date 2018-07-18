@@ -2,7 +2,7 @@ import React from 'react';
 
 const Popup = props => {
   let handleExit = () => {
-    confirm('Are you sure you don\'t want to see ${props.artist}?')
+    confirm(`Are you sure you don't want to see ${props.artist}?`)
   }
 
   let preventSubmit = (click) => {
