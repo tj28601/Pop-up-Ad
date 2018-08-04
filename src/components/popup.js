@@ -18,14 +18,14 @@ const Popup = props => {
 	     <h3>Please enter your email so we can send you the tickets</h3>
 
 	    <div onClick = {preventSubmit}>
-	    <form>
-	     <label htmlFor="email">Email</label>
-	     <input type="text" id="email" name="email"></input>
-	     <input type = 'submit'></input>
-	     </form>
-	     </div>
+  	    <form>
+  	     <label htmlFor="email">Email</label>
+  	     <input type="text" id="email" name="email"></input>
+  	     <input type = 'submit'></input>
+  	    </form>
 	    </div>
-	  );
-	};
+	  </div>
+	);
+};
 
 export default Popup;
